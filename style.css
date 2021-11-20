@@ -1,5 +1,4 @@
  
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /*  page index */
 
 body{
@@ -18,7 +17,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between; /* déplacer lu à droite */
-    padding-bottom: 30px;  
+       
 }
 
 .currentAbout {
@@ -69,7 +68,7 @@ a {
 
 .logo{
     width: 80px;
-	height: 60px;
+	  height: 60px;
     margin-left: 30px;
     border-radius: 30px;
    
@@ -79,7 +78,7 @@ a {
 
 .img1{
     width: 800px;
-	height: auto;
+	  height: auto;
     text-align: center;
     border-radius: 20px;
     margin-top: 10px;
@@ -102,13 +101,13 @@ a {
   }
 
   footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
+     
+    
   }
   footer img{
-    width: 80px;
-	height: 80px;
+    float:left;
+    margin: 0 10px 0 0;
+    padding: 15px;
      
   }
 
