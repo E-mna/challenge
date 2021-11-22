@@ -100,16 +100,7 @@ a {
     transform: translate(-50%, -50%);
   }
 
-  footer{
-     
-    
-  }
-  footer img{
-    float:left;
-    margin: 0 10px 0 0;
-    padding: 15px;
-     
-  }
+  
 
 
 
@@ -149,6 +140,7 @@ a {
     margin:0 auto; /* pour centrer le box */
     padding:20px;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-style: oblique;
     
 }
@@ -175,6 +167,17 @@ input[type=submit] {
     cursor: pointer;
   }
 
+  button{
+    background-color: #7595b9;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+
 input[type=submit]:hover { 
     background-color: #7595b9;
   }  /* colorer quand j'appuie */
@@ -192,6 +195,7 @@ table {
   width: 800px;
   border-right-color: #a75555;
   margin-top: 70px;
+  margin-bottom: 30px;
   font-size: 18px;
   border: 1px solid #343a40; 
    
@@ -240,5 +244,8 @@ tbody tr:nth-child(even){
 }
 
 
- 
+.contactfooter{
+  position: absolute; bottom: 0;
+}
 
+ 

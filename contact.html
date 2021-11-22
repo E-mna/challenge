@@ -45,29 +45,61 @@
         
             <label for="subject">Message</label>
             <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
+
+            <form action="url_page_suivante" method="get" name="formSaisie">
+              <p>
+                <label for="prenom">Saisissez votre prénom :</label>
+                <input type="text" name="prenom" id="prenom" />
+            
+                <input type="submit" value="Ok" />
+              </p>
+            </form>
+
+
+            
+
+            <!----
+            <button>Submit</button>
+            
+
           </form>
+          <form onSubmit="return confirm('Do you want to submit?') ">
+            <input type="submit" />
+          </form>
+
+          <form onsubmit="return checkEmpData();" method="post" action="process.html">
+            <input type="text"  name="submit" />
+            <button value="submit">submit</button>
+          </form>
+          ------>
+          
 
         </div>
 
 
 
+        <hr>
+ 
 
-
-
-
-
-
-
-
-
+        <footer>
+          <ul>
+            
+          <li><a target="blank" href="https://github.com/E-mna"><img src="images/github.png" alt="github" height="45" width="45"></a></li>
+          <li><a target="blank" href="https://www.linkedin.com/in/emna-ben-255b38215/"><img src="images/linkedin.png" alt="linkedin" height="50" width="50"></a></li> 
+          <li><a href="mailto:emnabenhammamia@gmail.com">©EmnaBenHammamia</a></li>
+          </ul>
+         
+         
+        </footer>
+      
+      
     </div>
 
 
 
 
-
-
+   
+     <script src="script.js"></script>
+    
 </body>
 </html>
